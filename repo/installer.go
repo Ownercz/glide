@@ -20,7 +20,7 @@ import (
 	"github.com/Masterminds/glide/util"
 	"github.com/Masterminds/semver"
 	"github.com/Masterminds/vcs"
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 )
 
 // Installer provides facilities for installing the repos in a config file.

@@ -22,7 +22,7 @@ The `glide.yaml` file contains information about the project and the dependent p
       version: ^1.2.0
       repo:    git@github.com:Masterminds/vcs
       vcs:     git
-    - package: github.com/codegangsta/cli
+    - package: github.com/urfave/cli
       version: f89effe81c1ece9c5b0fda359ebd9cf65f169a51
     - package: github.com/Masterminds/semver
       version: ^1.0.0

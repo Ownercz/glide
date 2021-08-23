@@ -28,7 +28,7 @@ import (
 	"github.com/Masterminds/glide/repo"
 	"github.com/Masterminds/glide/util"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 
 	"fmt"
 	"os"

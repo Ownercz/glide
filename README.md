@@ -163,7 +163,7 @@ $ glide create
 [INFO]	Scanning code to look for dependencies
 [INFO]	--> Found reference to github.com/Masterminds/semver
 [INFO]	--> Found reference to github.com/Masterminds/vcs
-[INFO]	--> Found reference to github.com/codegangsta/cli
+[INFO]	--> Found reference to github.com/urfave/cli
 [INFO]	--> Found reference to gopkg.in/yaml.v2
 [INFO]	Writing configuration file (glide.yaml)
 [INFO]	Would you like Glide to help you find ways to improve your glide.yaml configuration?
@@ -283,8 +283,8 @@ github.com/Masterminds/glide
 			gopkg.in/yaml.v2   (/Users/mfarina/Code/go/src/gopkg.in/yaml.v2)
 		github.com/Masterminds/semver   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/semver)
 		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
-		github.com/codegangsta/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/codegangsta/cli)
-	github.com/codegangsta/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/codegangsta/cli)
+		github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/urfave/cli)
+	github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/urfave/cli)
 	github.com/Masterminds/cookoo   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo)
 		github.com/Masterminds/cookoo/io   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/io)
 	github.com/Masterminds/glide/gb   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/gb)
@@ -297,7 +297,7 @@ github.com/Masterminds/glide
 		gopkg.in/yaml.v2   (/Users/mfarina/Code/go/src/gopkg.in/yaml.v2)
 	github.com/Masterminds/semver   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/semver)
 	github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
-	github.com/codegangsta/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/codegangsta/cli)
+	github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/urfave/cli)
 ```
 
 This shows a tree of imports, excluding core libraries. Because
@@ -321,7 +321,7 @@ INSTALLED packages:
 	vendor/github.com/Masterminds/cookoo/web
 	vendor/github.com/Masterminds/semver
 	vendor/github.com/Masterminds/vcs
-	vendor/github.com/codegangsta/cli
+	vendor/github.com/urfave/cli
 	vendor/gopkg.in/yaml.v2
 ```
 

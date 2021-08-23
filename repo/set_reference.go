@@ -6,7 +6,7 @@ import (
 	"github.com/Masterminds/glide/cache"
 	"github.com/Masterminds/glide/cfg"
 	"github.com/Masterminds/glide/msg"
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 )
 
 // SetReference is a command to set the VCS reference (commit id, tag, etc) for
