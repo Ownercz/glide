@@ -26,7 +26,7 @@
 
 ## Added
 - #45: Added json (un)marshaling support (thanks @mh-cbon)
-- Stability marker. See https://masterminds.github.io/stability/
+- Stability marker. See https://ownercz.github.io/stability/
 
 ## Fixed
 - #51: Fix handling of single digit tilde constraint (thanks @dgodd)

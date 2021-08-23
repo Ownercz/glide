@@ -8,7 +8,7 @@
 // The yaml, typically in a glide.yaml file, has the following structure.
 //
 //     package: github.com/Ownercz/glide
-//     homepage: https://masterminds.github.io/glide
+//     homepage: https://ownercz.github.io/glide
 //     license: MIT
 //     owners:
 //     - name: Matt Butcher

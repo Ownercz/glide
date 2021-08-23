@@ -172,7 +172,7 @@ func detectVcsFromURL(vcsURL string) (Type, error) {
 		}
 
 		// Make sure the pattern matches for an actual repo location. For example,
-		// we should fail if the VCS listed is github.com/masterminds as that's
+		// we should fail if the VCS listed is github.com/ownercz as that's
 		// not actually a repo.
 		uCheck := u.Host + u.Path
 		m := v.regex.FindStringSubmatch(uCheck)

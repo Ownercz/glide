@@ -107,7 +107,7 @@ $ brew install glide
 On Ubuntu Precise (12.04), Trusty (14.04), Wily (15.10) or Xenial (16.04) you can install from our PPA:
 
 ```
-sudo add-apt-repository ppa:masterminds/glide && sudo apt-get update
+sudo add-apt-repository ppa:ownercz/glide && sudo apt-get update
 sudo apt-get install glide
 ```
 
@@ -389,7 +389,7 @@ importing a package, not a subpackage name. For example, use
 ## Supported Version Control Systems
 
 The Git, SVN, Mercurial (Hg), and Bzr source control systems are supported. This
-happens through the [vcs package](https://github.com/masterminds/vcs).
+happens through the [vcs package](https://github.com/ownercz/vcs).
 
 ## Frequently Asked Questions (F.A.Q.)
 
@@ -405,7 +405,7 @@ information.
 #### Q: bzr (or hg) is not working the way I expected. Why?
 
 These are works in progress, and may need some additional tuning. Please
-take a look at the [vcs package](https://github.com/masterminds/vcs). If you
+take a look at the [vcs package](https://github.com/ownercz/vcs). If you
 see a better way to handle it please let us know.
 
 #### Q: Should I check `vendor/` into version control?

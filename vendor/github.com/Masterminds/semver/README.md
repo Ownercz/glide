@@ -8,7 +8,7 @@ The `semver` package provides the ability to work with [Semantic Versions](http:
 * Optionally work with a `v` prefix
 
 [![Stability:
-Active](https://masterminds.github.io/stability/active.svg)](https://masterminds.github.io/stability/active.html)
+Active](https://ownercz.github.io/stability/active.svg)](https://ownercz.github.io/stability/active.html)
 [![Build Status](https://travis-ci.org/Ownercz/semver.svg)](https://travis-ci.org/Ownercz/semver) [![Build status](https://ci.appveyor.com/api/projects/status/jfk66lib7hb985k8/branch/master?svg=true&passingText=windows%20build%20passing&failingText=windows%20build%20failing)](https://ci.appveyor.com/project/mattfarina/semver/branch/master) [![GoDoc](https://godoc.org/github.com/Ownercz/semver?status.svg)](https://godoc.org/github.com/Ownercz/semver) [![Go Report Card](https://goreportcard.com/badge/github.com/Ownercz/semver)](https://goreportcard.com/report/github.com/Ownercz/semver)
 
 ## Parsing Semantic Versions

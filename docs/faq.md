@@ -6,7 +6,7 @@ In Go every directory is a package. This works well when you have one repo conta
 
 ## Q: bzr (or hg) is not working the way I expected. Why?
 
-These are works in progress, and may need some additional tuning. Please take a look at the [vcs package](https://github.com/masterminds/vcs). If you see a better way to handle it please let us know.
+These are works in progress, and may need some additional tuning. Please take a look at the [vcs package](https://github.com/ownercz/vcs). If you see a better way to handle it please let us know.
 
 ## Q: Should I check `vendor/` into version control?
 
