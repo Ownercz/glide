@@ -16,7 +16,7 @@ func TestVCSLookup(t *testing.T) {
 		t    Type
 	}{
 		"https://github.com/masterminds":                                   {work: false, t: Git},
-		"https://github.com/Masterminds/VCSTestRepo":                       {work: true, t: Git},
+		"https://github.com/Ownercz/VCSTestRepo":                       {work: true, t: Git},
 		"https://bitbucket.org/mattfarina/testhgrepo":                      {work: true, t: Hg},
 		"https://bitbucket.org/mattfarina/repo-does-not-exist":             {work: false, t: Hg},
 		"https://bitbucket.org/mattfarina/private-repo-for-vcs-testing":    {work: false, t: Hg},
@@ -35,7 +35,7 @@ func TestVCSLookup(t *testing.T) {
 		"https://gopkg.in/tomb.v1":                                         {work: true, t: Git},
 		"https://golang.org/x/net":                                         {work: true, t: Git},
 		"https://git.openstack.org/foo/bar":                                {work: true, t: Git},
-		"git@github.com:Masterminds/vcs.git":                               {work: true, t: Git},
+		"git@github.com:Ownercz/vcs.git":                               {work: true, t: Git},
 		"git@example.com:foo.git":                                          {work: true, t: Git},
 		"ssh://hg@bitbucket.org/mattfarina/testhgrepo":                     {work: true, t: Hg},
 		"git@bitbucket.org:mattfarina/glide-bitbucket-example.git":         {work: true, t: Git},

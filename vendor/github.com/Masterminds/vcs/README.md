@@ -3,7 +3,7 @@
 Manage repos in varying version control systems with ease through a common
 interface.
 
-[![Build Status](https://travis-ci.org/Masterminds/vcs.svg)](https://travis-ci.org/Masterminds/vcs) [![GoDoc](https://godoc.org/github.com/Masterminds/vcs?status.png)](https://godoc.org/github.com/Masterminds/vcs) [![Go Report Card](https://goreportcard.com/badge/github.com/Masterminds/vcs)](https://goreportcard.com/report/github.com/Masterminds/vcs)
+[![Build Status](https://travis-ci.org/Ownercz/vcs.svg)](https://travis-ci.org/Ownercz/vcs) [![GoDoc](https://godoc.org/github.com/Ownercz/vcs?status.png)](https://godoc.org/github.com/Ownercz/vcs) [![Go Report Card](https://goreportcard.com/badge/github.com/Ownercz/vcs)](https://goreportcard.com/report/github.com/Ownercz/vcs)
 [![Build status](https://ci.appveyor.com/api/projects/status/vg3cjc561q2trobm?svg=true&passingText=windows%20build%20passing&failingText=windows%20build%20failing)](https://ci.appveyor.com/project/mattfarina/vcs)
 
 
@@ -11,7 +11,7 @@ interface.
 
 Quick usage:
 
-	remote := "https://github.com/Masterminds/vcs"
+	remote := "https://github.com/Ownercz/vcs"
     local, _ := ioutil.TempDir("", "go-vcs")
     repo, err := NewRepo(remote, local)
 
@@ -36,7 +36,7 @@ The constructors have the same signature as `NewRepo`.
 - Check if a string value is a valid reference within the VCS.
 - More...
 
-For more details see [the documentation](https://godoc.org/github.com/Masterminds/vcs).
+For more details see [the documentation](https://godoc.org/github.com/Ownercz/vcs).
 
 ## Motivation
 

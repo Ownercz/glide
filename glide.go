@@ -5,9 +5,9 @@
 //
 // A glide.yaml file looks like:
 //
-//		package: github.com/Masterminds/glide
+//		package: github.com/Ownercz/glide
 //		imports:
-//		- package: github.com/Masterminds/cookoo
+//		- package: github.com/Ownercz/cookoo
 //		- package: github.com/kylelemons/go-gypsy
 //		  subpackages:
 //		  - yaml
@@ -21,12 +21,12 @@ package main
 import (
 	"path/filepath"
 
-	"github.com/Masterminds/glide/action"
-	"github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/repo"
-	"github.com/Masterminds/glide/util"
+	"github.com/Ownercz/glide/action"
+	"github.com/Ownercz/glide/cache"
+	"github.com/Ownercz/glide/msg"
+	gpath "github.com/Ownercz/glide/path"
+	"github.com/Ownercz/glide/repo"
+	"github.com/Ownercz/glide/util"
 
 	"github.com/urfave/cli"
 
@@ -41,9 +41,9 @@ const usage = `Vendor Package Management for your Go projects.
    Each project should have a 'glide.yaml' file in the project directory. Files
    look something like this:
 
-       package: github.com/Masterminds/glide
+       package: github.com/Ownercz/glide
        imports:
-       - package: github.com/Masterminds/cookoo
+       - package: github.com/Ownercz/cookoo
          version: 1.1.0
        - package: github.com/kylelemons/go-gypsy
          subpackages:
@@ -160,9 +160,9 @@ func commands() []cli.Command {
 			Description: `Gets one or more package (like 'go get') and then adds that file
    to the glide.yaml file. Multiple package names can be specified on one line.
 
-       $ glide get github.com/Masterminds/cookoo/web
+       $ glide get github.com/Ownercz/cookoo/web
 
-   The above will install the project github.com/Masterminds/cookoo and add
+   The above will install the project github.com/Ownercz/cookoo and add
    the subpackage 'web'.
 
    If a fetched dependency has a glide.yaml file, configuration from Godep,

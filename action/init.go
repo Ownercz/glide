@@ -1,7 +1,7 @@
 package action
 
 import (
-	gpath "github.com/Masterminds/glide/path"
+	gpath "github.com/Ownercz/glide/path"
 )
 
 // Init initializes the action subsystem for handling one or more subesequent actions.

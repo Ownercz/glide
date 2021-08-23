@@ -1,8 +1,8 @@
 package action
 
 import (
-	"github.com/Masterminds/glide/gom"
-	"github.com/Masterminds/glide/msg"
+	"github.com/Ownercz/glide/gom"
+	"github.com/Ownercz/glide/msg"
 )
 
 // ImportGom imports a Gomfile.

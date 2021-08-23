@@ -17,7 +17,7 @@ To parse a semantic version use the `NewVersion` function. For example,
 If there is an error the version wasn't parseable. The version object has methods
 to get the parts of the version, compare it to other versions, convert the
 version back into a string, and get the original string. For more details
-please see the documentation at https://godoc.org/github.com/Masterminds/semver.
+please see the documentation at https://godoc.org/github.com/Ownercz/semver.
 
 Sorting Semantic Versions
 

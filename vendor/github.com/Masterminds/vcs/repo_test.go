@@ -8,7 +8,7 @@ import (
 )
 
 func ExampleNewRepo() {
-	remote := "https://github.com/Masterminds/vcs"
+	remote := "https://github.com/Ownercz/vcs"
 	local, _ := ioutil.TempDir("", "go-vcs")
 	repo, _ := NewRepo(remote, local)
 	// Returns: instance of GitRepo
@@ -46,7 +46,7 @@ func TestTypeSwitch(t *testing.T) {
 		}
 	}()
 
-	repo, err := NewSvnRepo("https://github.com/Masterminds/VCSTestRepo/trunk", tempDir+string(os.PathSeparator)+"VCSTestRepo")
+	repo, err := NewSvnRepo("https://github.com/Ownercz/VCSTestRepo/trunk", tempDir+string(os.PathSeparator)+"VCSTestRepo")
 	if err != nil {
 		t.Error(err)
 	}
@@ -55,7 +55,7 @@ func TestTypeSwitch(t *testing.T) {
 		t.Errorf("Unable to checkout SVN repo for repo switching tests. Err was %s", err)
 	}
 
-	_, err = NewRepo("https://github.com/Masterminds/VCSTestRepo", tempDir+string(os.PathSeparator)+"VCSTestRepo")
+	_, err = NewRepo("https://github.com/Ownercz/VCSTestRepo", tempDir+string(os.PathSeparator)+"VCSTestRepo")
 	if err != ErrWrongVCS {
 		t.Errorf("Not detecting repo switch from SVN to Git")
 	}

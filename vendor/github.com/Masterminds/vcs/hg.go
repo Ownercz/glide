@@ -122,7 +122,7 @@ func (s *HgRepo) Version() (string, error) {
 	if stderr.Len() > 0 {
 		// "hg --debug identify" can print out errors before it actually prints
 		// the version.
-		// https://github.com/Masterminds/vcs/issues/90
+		// https://github.com/Ownercz/vcs/issues/90
 		return "", NewLocalError("Unable to retrieve checked out version", errors.New("Error output printed before identify"), stderr.String())
 	}
 	parts := strings.SplitN(stdout.String(), " ", 2)

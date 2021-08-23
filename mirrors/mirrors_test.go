@@ -4,17 +4,17 @@ import "testing"
 
 var oyml = `
 repos:
-- original: github.com/Masterminds/semver
+- original: github.com/Ownercz/semver
   repo: file:///path/to/local/repo
   vcs: git
-- original: github.com/Masterminds/atest
+- original: github.com/Ownercz/atest
   repo: github.com/example/atest
 `
 
 var ooutyml = `repos:
-- original: github.com/Masterminds/atest
+- original: github.com/Ownercz/atest
   repo: github.com/example/atest
-- original: github.com/Masterminds/semver
+- original: github.com/Ownercz/semver
   repo: file:///path/to/local/repo
   vcs: git
 `

@@ -5,14 +5,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/godep"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/glide/repo"
-	"github.com/Masterminds/glide/util"
-	"github.com/Masterminds/semver"
+	"github.com/Ownercz/glide/cache"
+	"github.com/Ownercz/glide/cfg"
+	"github.com/Ownercz/glide/godep"
+	"github.com/Ownercz/glide/msg"
+	gpath "github.com/Ownercz/glide/path"
+	"github.com/Ownercz/glide/repo"
+	"github.com/Ownercz/glide/util"
+	"github.com/Ownercz/semver"
 )
 
 // Get fetches one or more dependencies and installs.

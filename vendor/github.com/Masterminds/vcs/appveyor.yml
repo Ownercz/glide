@@ -1,7 +1,7 @@
 
 version: build-{build}.{branch}
 
-clone_folder: C:\gopath\src\github.com\Masterminds\vcs
+clone_folder: C:\gopath\src\github.com\Ownercz\vcs
 shallow_clone: true
 
 environment:

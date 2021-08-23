@@ -28,7 +28,7 @@ func TestSvn(t *testing.T) {
 		}
 	}()
 
-	repo, err := NewSvnRepo("https://github.com/Masterminds/VCSTestRepo/trunk", tempDir+string(os.PathSeparator)+"VCSTestRepo")
+	repo, err := NewSvnRepo("https://github.com/Ownercz/VCSTestRepo/trunk", tempDir+string(os.PathSeparator)+"VCSTestRepo")
 	if err != nil {
 		t.Error(err)
 	}
@@ -38,7 +38,7 @@ func TestSvn(t *testing.T) {
 	}
 
 	// Check the basic getters.
-	if repo.Remote() != "https://github.com/Masterminds/VCSTestRepo/trunk" {
+	if repo.Remote() != "https://github.com/Ownercz/VCSTestRepo/trunk" {
 		t.Error("Remote not set properly")
 	}
 	if repo.LocalPath() != tempDir+string(os.PathSeparator)+"VCSTestRepo" {
@@ -59,7 +59,7 @@ func TestSvn(t *testing.T) {
 	}
 
 	// Verify an incorrect remote is caught when NewSvnRepo is used on an existing location
-	_, nrerr := NewSvnRepo("https://github.com/Masterminds/VCSTestRepo/unknownbranch", tempDir+"/VCSTestRepo")
+	_, nrerr := NewSvnRepo("https://github.com/Ownercz/VCSTestRepo/unknownbranch", tempDir+"/VCSTestRepo")
 	if nrerr != ErrWrongRemote {
 		t.Error("ErrWrongRemote was not triggered for SVN")
 	}
@@ -79,7 +79,7 @@ func TestSvn(t *testing.T) {
 	//
 	// Test NewRepo on existing checkout. This should simply provide a working
 	// instance without error based on looking at the local directory.
-	// nrepo, nrerr := NewRepo("https://github.com/Masterminds/VCSTestRepo/trunk", tempDir+"/VCSTestRepo")
+	// nrepo, nrerr := NewRepo("https://github.com/Ownercz/VCSTestRepo/trunk", tempDir+"/VCSTestRepo")
 	// if nrerr != nil {
 	// 	t.Error(nrerr)
 	// }
@@ -259,7 +259,7 @@ func TestSvnCheckLocal(t *testing.T) {
 
 	// Test NewRepo when there's no local. This should simply provide a working
 	// instance without error based on looking at the remote localtion.
-	_, nrerr := NewRepo("https://github.com/Masterminds/VCSTestRepo/trunk", tempDir+"/VCSTestRepo")
+	_, nrerr := NewRepo("https://github.com/Ownercz/VCSTestRepo/trunk", tempDir+"/VCSTestRepo")
 	if nrerr != nil {
 		t.Error(nrerr)
 	}
@@ -277,7 +277,7 @@ func TestSvnPing(t *testing.T) {
 		}
 	}()
 
-	repo, err := NewSvnRepo("https://github.com/Masterminds/VCSTestRepo/trunk", tempDir)
+	repo, err := NewSvnRepo("https://github.com/Ownercz/VCSTestRepo/trunk", tempDir)
 	if err != nil {
 		t.Error(err)
 	}
@@ -287,7 +287,7 @@ func TestSvnPing(t *testing.T) {
 		t.Error("Svn unable to ping working repo")
 	}
 
-	repo, err = NewSvnRepo("https://github.com/Masterminds/ihopethisneverexistsbecauseitshouldnt", tempDir)
+	repo, err = NewSvnRepo("https://github.com/Ownercz/ihopethisneverexistsbecauseitshouldnt", tempDir)
 	if err != nil {
 		t.Error(err)
 	}

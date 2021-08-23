@@ -52,13 +52,13 @@ If you're not managing the dependency versions for a project but need to install
 
 Glide can help you add more dependencies to the `glide.yaml` file with the `get` command.
 
-    $ glide get github.com/Masterminds/semver
+    $ glide get github.com/Ownercz/semver
 
 The `get` command is similar to `go get` but instead fetches dependencies into the `vendor/` folder and adds them to the `glide.yaml` file. This command can take one or more dependencies to fetch.
 
 The `get` command can also work with versions.
 
-    $ glide get github.com/Masterminds/semver#~1.2.0
+    $ glide get github.com/Ownercz/semver#~1.2.0
 
 The `#` is used as a separator between the dependency name and a version to use. The version can be a semantic version, version range, branch, tag, or commit id.
 

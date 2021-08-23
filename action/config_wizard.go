@@ -7,12 +7,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Masterminds/glide/cache"
-	"github.com/Masterminds/glide/cfg"
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
-	"github.com/Masterminds/semver"
-	"github.com/Masterminds/vcs"
+	"github.com/Ownercz/glide/cache"
+	"github.com/Ownercz/glide/cfg"
+	"github.com/Ownercz/glide/msg"
+	gpath "github.com/Ownercz/glide/path"
+	"github.com/Ownercz/semver"
+	"github.com/Ownercz/vcs"
 )
 
 // ConfigWizard reads configuration from a glide.yaml file and attempts to suggest

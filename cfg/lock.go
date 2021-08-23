@@ -142,7 +142,7 @@ func (l Locks) Len() int {
 func (l Locks) Less(i, j int) bool {
 
 	// Names are normalized to lowercase because case affects sorting order. For
-	// example, Masterminds comes before kylelemons. Making them lowercase
+	// example, Ownercz comes before kylelemons. Making them lowercase
 	// causes kylelemons to come first which is what is expected.
 	return strings.ToLower(l[i].Name) < strings.ToLower(l[j].Name)
 }

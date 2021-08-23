@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"github.com/Masterminds/semver"
-	"github.com/Masterminds/vcs"
+	"github.com/Ownercz/semver"
+	"github.com/Ownercz/vcs"
 )
 
 // Filter a list of versions to only included semantic versions. The response

@@ -1,7 +1,7 @@
 package action
 
 import (
-	"github.com/Masterminds/glide/msg"
+	"github.com/Ownercz/glide/msg"
 )
 
 // Name prints the name of the package, according to the glide.yaml file.

@@ -13,8 +13,8 @@ import (
 
 // NewSvnRepo creates a new instance of SvnRepo. The remote and local directories
 // need to be passed in. The remote location should include the branch for SVN.
-// For example, if the package is https://github.com/Masterminds/cookoo/ the remote
-// should be https://github.com/Masterminds/cookoo/trunk for the trunk branch.
+// For example, if the package is https://github.com/Ownercz/cookoo/ the remote
+// should be https://github.com/Ownercz/cookoo/trunk for the trunk branch.
 func NewSvnRepo(remote, local string) (*SvnRepo, error) {
 	ins := depInstalled("svn")
 	if !ins {

@@ -1,7 +1,7 @@
 
 version: build-{build}.{branch}
 
-clone_folder: C:\gopath\src\github.com\Masterminds\glide
+clone_folder: C:\gopath\src\github.com\Ownercz\glide
 shallow_clone: true
 
 environment:

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Masterminds/glide/cfg"
+	"github.com/Ownercz/glide/cfg"
 )
 
 func TestResolveLocalShallow(t *testing.T) {
@@ -21,8 +21,8 @@ func TestResolveLocalShallow(t *testing.T) {
 	}
 
 	expect := []string{
-		filepath.FromSlash("github.com/Masterminds/semver"),
-		filepath.FromSlash("github.com/Masterminds/vcs"),
+		filepath.FromSlash("github.com/Ownercz/semver"),
+		filepath.FromSlash("github.com/Ownercz/vcs"),
 		filepath.FromSlash("gopkg.in/yaml.v2"),
 		filepath.FromSlash("github.com/urfave/cli"),
 	}
@@ -67,7 +67,7 @@ func TestResolve(t *testing.T) {
 	h := &DefaultMissingPackageHandler{Missing: []string{}, Gopath: []string{}, Prefix: "../vendor"}
 	r.Handler = h
 
-	base := filepath.Join(os.Getenv("GOPATH"), "src/github.com/Masterminds/glide/vendor")
+	base := filepath.Join(os.Getenv("GOPATH"), "src/github.com/Ownercz/glide/vendor")
 	l, err := r.Resolve("github.com/urfave/cli", base)
 	if err != nil {
 		t.Fatalf("Failed to resolve: %s", err)
@@ -86,8 +86,8 @@ func TestResolveAll(t *testing.T) {
 	// These are build dependencies of Glide, so we know they are here.
 	deps := []*cfg.Dependency{
 		{Name: "github.com/urfave/cli"},
-		{Name: "github.com/Masterminds/semver"},
-		{Name: "github.com/Masterminds/vcs"},
+		{Name: "github.com/Ownercz/semver"},
+		{Name: "github.com/Ownercz/vcs"},
 		{Name: "gopkg.in/yaml.v2"},
 	}
 

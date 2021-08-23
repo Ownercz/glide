@@ -20,16 +20,16 @@ func TestSortLocks(t *testing.T) {
 		}
 	}
 
-	if ls[2].Name != "github.com/Masterminds/structable" {
+	if ls[2].Name != "github.com/Ownercz/structable" {
 		t.Error("Initial dependencies are out of order prior to sort")
 	}
 
 	sort.Sort(ls)
 
 	if ls[0].Name != "github.com/kylelemons/go-gypsy" ||
-		ls[1].Name != "github.com/Masterminds/convert" ||
-		ls[2].Name != "github.com/Masterminds/cookoo" ||
-		ls[3].Name != "github.com/Masterminds/structable" {
+		ls[1].Name != "github.com/Ownercz/convert" ||
+		ls[2].Name != "github.com/Ownercz/cookoo" ||
+		ls[3].Name != "github.com/Ownercz/structable" {
 		t.Error("Sorting of dependencies failed")
 	}
 }

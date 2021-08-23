@@ -1,6 +1,6 @@
 package action
 
-import "github.com/Masterminds/glide/msg"
+import "github.com/Ownercz/glide/msg"
 
 const aboutMessage = `
 Glide: Vendor Package Management for Go. Manage your vendor and vendored
@@ -12,7 +12,7 @@ Name:
     seconds.
 
 To file issues, obtain the source, or learn more visit:
-    https://github.com/Masterminds/glide
+    https://github.com/Ownercz/glide
 
 Glide is licensed under the MIT License:
 

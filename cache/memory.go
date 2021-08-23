@@ -3,8 +3,8 @@ package cache
 import (
 	"sync"
 
-	"github.com/Masterminds/glide/msg"
-	"github.com/Masterminds/semver"
+	"github.com/Ownercz/glide/msg"
+	"github.com/Ownercz/semver"
 )
 
 // Provide an in memory cache of imported project information.

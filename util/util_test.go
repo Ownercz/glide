@@ -4,7 +4,7 @@ import "testing"
 
 func TestGetRootFromPackage(t *testing.T) {
 	urlList := map[string]string{
-		"github.com/Masterminds/VCSTestRepo":                       "github.com/Masterminds/VCSTestRepo",
+		"github.com/Ownercz/VCSTestRepo":                       "github.com/Ownercz/VCSTestRepo",
 		"bitbucket.org/mattfarina/testhgrepo":                      "bitbucket.org/mattfarina/testhgrepo",
 		"launchpad.net/govcstestbzrrepo/trunk":                     "launchpad.net/govcstestbzrrepo/trunk",
 		"launchpad.net/~mattfarina/+junk/mygovcstestbzrrepo":       "launchpad.net/~mattfarina/+junk/mygovcstestbzrrepo",

@@ -41,7 +41,7 @@
 - #800: Allow VERSION of glide to be passed in with build script (thanks @BlackYoup)
 - #774: Add docs on using go get to install glide (thanks @philoserf)
 - #907: Updated Travis CI language versions of Go to test against (thanks @dvrkps)
-- #916: Update gox to version managed by Masterminds for builds
+- #916: Update gox to version managed by Ownercz for builds
 
 ## Fixed
 
@@ -126,7 +126,7 @@ to be supporting builds for it at this time.
   `glide init` or as separate command
 - #438: Added ability to read symlink basedirs (thanks @klnusbaum)
 - #436: Added .idea to .gitignore
-- #393 and #401: Added a PPA (https://github.com/Masterminds/glide-ppa) and instructions
+- #393 and #401: Added a PPA (https://github.com/Ownercz/glide-ppa) and instructions
   on using it (thanks @franciscocpg)
 - #390: Added support for custom Go executable name. Needed for environments like
   appengine. Environment variable GLIDE_GO_EXECUTABLE (thanks @dpmcnevin)
@@ -138,8 +138,8 @@ to be supporting builds for it at this time.
   This is to conform with other Go tools that require this.
 - #501: Updating the plugins documentation and adding listing
 - #500: Log an error if stripping version control data fails (thanks @alexbrand)
-- #496: Updated to github.com/Masterminds/semver 1.1.1
-- #495: Updated to github.com/Masterminds/vcs 1.8.0
+- #496: Updated to github.com/Ownercz/semver 1.1.1
+- #495: Updated to github.com/Ownercz/vcs 1.8.0
 - #494: Glide install skips fetch when it is up to date
 - #489: Make shared funcs for lockfile usage (thanks @heewa)
 - #459: When a conflict occurs output the tag, if one exists, for the commit
@@ -295,8 +295,8 @@ And thanks to @derelk, @franciscocpg, @shawnps, @kngu9, @tugberkugurlu, @rhcarva
 - Issue #146: Glide scans projects not managed by a dependency manager, fetches
   their dependencies, and pins them in the glide.lock file.
 - Issue #99: Glide `get` pins dependencies by default and allows a version to
-  be passed in. For example, `glide get github.com/Masterminds/convert#^1.0.0`
-  will fetch `github.com/Masterminds/convert` with a version of `^1.0.0`.
+  be passed in. For example, `glide get github.com/Ownercz/convert#^1.0.0`
+  will fetch `github.com/Ownercz/convert` with a version of `^1.0.0`.
 - Issue #155: Copying packages from the `GOPATH` is now opt-in.
 
 # Release 0.7.2 (2015-11-16)
@@ -381,7 +381,7 @@ previous releases.**
   no vendor directory. Use the --no-recursive flag to skip this.
 - Removed GOPATH management. This was needed for vendor package
   management that's not built into the go toolchain.
-- Switched to github.com/Masterminds/vcs for VCS integration.
+- Switched to github.com/Ownercz/vcs for VCS integration.
 - When updating packages are now deleted if the --delete flag is set.
   This feature is now opt-in.
 - Fixed #32: Detects VCS type and endpoint changes along with a --force flag

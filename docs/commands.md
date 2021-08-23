@@ -14,8 +14,8 @@ they are specified with another package manager or not.
     [INFO]	Generating a YAML configuration file and guessing the dependencies
     [INFO]	Attempting to import from other package managers (use --skip-import to skip)
     [INFO]	Scanning code to look for dependencies
-    [INFO]	--> Found reference to github.com/Masterminds/semver
-    [INFO]	--> Found reference to github.com/Masterminds/vcs
+    [INFO]	--> Found reference to github.com/Ownercz/semver
+    [INFO]	--> Found reference to github.com/Ownercz/vcs
     [INFO]	--> Found reference to github.com/urfave/cli
     [INFO]	--> Found reference to gopkg.in/yaml.v2
     [INFO]	Writing configuration file (glide.yaml)
@@ -44,13 +44,13 @@ ranges to use.
 You can download one or more packages to your `vendor` directory and have it added to your
 `glide.yaml` file with `glide get`.
 
-    $ glide get github.com/Masterminds/cookoo
+    $ glide get github.com/Ownercz/cookoo
 
 When `glide get` is used it will introspect the listed package to resolve its dependencies including using Godep, GPM, Gom, and GB config files.
 
 The `glide get` command can have a [version or range](versions.md) passed in with the package name. For example,
 
-    $ glide get github.com/Masterminds/cookoo#^1.2.3
+    $ glide get github.com/Ownercz/cookoo#^1.2.3
 
 The version is separated from the package name by an anchor (`#`). If no version or range is specified and the dependency uses Semantic Versions Glide will prompt you to ask if you want to use them.
 
@@ -104,12 +104,12 @@ Glide's `list` command shows an alphabetized list of all the packages that a pro
 
     $ glide list
     INSTALLED packages:
-    	vendor/github.com/Masterminds/cookoo
-    	vendor/github.com/Masterminds/cookoo/fmt
-    	vendor/github.com/Masterminds/cookoo/io
-    	vendor/github.com/Masterminds/cookoo/web
-    	vendor/github.com/Masterminds/semver
-    	vendor/github.com/Masterminds/vcs
+    	vendor/github.com/Ownercz/cookoo
+    	vendor/github.com/Ownercz/cookoo/fmt
+    	vendor/github.com/Ownercz/cookoo/io
+    	vendor/github.com/Ownercz/cookoo/web
+    	vendor/github.com/Ownercz/semver
+    	vendor/github.com/Ownercz/vcs
     	vendor/github.com/urfave/cli
     	vendor/gopkg.in/yaml.v2
 

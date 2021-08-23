@@ -9,7 +9,7 @@ The `semver` package provides the ability to work with [Semantic Versions](http:
 
 [![Stability:
 Active](https://masterminds.github.io/stability/active.svg)](https://masterminds.github.io/stability/active.html)
-[![Build Status](https://travis-ci.org/Masterminds/semver.svg)](https://travis-ci.org/Masterminds/semver) [![Build status](https://ci.appveyor.com/api/projects/status/jfk66lib7hb985k8/branch/master?svg=true&passingText=windows%20build%20passing&failingText=windows%20build%20failing)](https://ci.appveyor.com/project/mattfarina/semver/branch/master) [![GoDoc](https://godoc.org/github.com/Masterminds/semver?status.svg)](https://godoc.org/github.com/Masterminds/semver) [![Go Report Card](https://goreportcard.com/badge/github.com/Masterminds/semver)](https://goreportcard.com/report/github.com/Masterminds/semver)
+[![Build Status](https://travis-ci.org/Ownercz/semver.svg)](https://travis-ci.org/Ownercz/semver) [![Build status](https://ci.appveyor.com/api/projects/status/jfk66lib7hb985k8/branch/master?svg=true&passingText=windows%20build%20passing&failingText=windows%20build%20failing)](https://ci.appveyor.com/project/mattfarina/semver/branch/master) [![GoDoc](https://godoc.org/github.com/Ownercz/semver?status.svg)](https://godoc.org/github.com/Ownercz/semver) [![Go Report Card](https://goreportcard.com/badge/github.com/Ownercz/semver)](https://goreportcard.com/report/github.com/Ownercz/semver)
 
 ## Parsing Semantic Versions
 
@@ -22,7 +22,7 @@ To parse a semantic version use the `NewVersion` function. For example,
 If there is an error the version wasn't parseable. The version object has methods
 to get the parts of the version, compare it to other versions, convert the
 version back into a string, and get the original string. For more details
-please see the [documentation](https://godoc.org/github.com/Masterminds/semver).
+please see the [documentation](https://godoc.org/github.com/Ownercz/semver).
 
 ## Sorting Semantic Versions
 
@@ -161,5 +161,5 @@ version didn't meet the constraint is returned. For example,
 
 # Contribute
 
-If you find an issue or want to contribute please file an [issue](https://github.com/Masterminds/semver/issues)
-or [create a pull request](https://github.com/Masterminds/semver/pulls).
+If you find an issue or want to contribute please file an [issue](https://github.com/Ownercz/semver/issues)
+or [create a pull request](https://github.com/Ownercz/semver/pulls).

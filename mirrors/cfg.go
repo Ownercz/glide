@@ -79,7 +79,7 @@ func (o MirrorRepos) Len() int {
 func (o MirrorRepos) Less(i, j int) bool {
 
 	// Names are normalized to lowercase because case affects sorting order. For
-	// example, Masterminds comes before kylelemons. Making them lowercase
+	// example, Ownercz comes before kylelemons. Making them lowercase
 	// causes kylelemons to come first which is what is expected.
 	return strings.ToLower(o[i].Original) < strings.ToLower(o[j].Original)
 }
